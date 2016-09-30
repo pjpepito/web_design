@@ -1,0 +1,45 @@
+.header {
+		background-color:#3079ab;
+		height:100px;
+		border:2px solid gray;
+	   }
+
+.head {
+		COLOR:white;
+		FONT-FAMILY:CAMBRI;
+		float:left;
+		position:relative;
+		left:65px;
+		top:25px;
+		font-size:35px;
+	  }
+
+#logo {
+		height:60px;
+		width:60px;
+		position:relative;
+		left:-275px;
+	 	}
+
+.t1{
+		background-color:#3079ab;
+		height:550px;
+		width:250px;
+		border:2px solid gray;
+		}
+
+a{
+		text-decoration:none; 
+		}
+
+.f1 {
+		position:relative;
+		left:50px;
+
+		}
+#fb {
+		height:50px;
+		width:75px;
+		position:relative;
+		left:40px;
+	 	}
