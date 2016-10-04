@@ -4,28 +4,47 @@
 <title>MAIN</title>
 <link href="main.css" rel="stylesheet">
 </head>
-<body>
+<body bgcolor="#3079ab">
 	<div class="header"> 
 	    <a href = "main.html" > <img src="ab.png" id ="logo"> </a>
 		<span class="head">LIMITED</span>
-		<!-- <a href = "home.html"> <BUTTON type="button" value="HOME" class="b"> HOME </a>
-		<a href = "home.html"> <BUTTON type="button" value="GALLERY" class="b"> GALLERY </a>
-		<a href = "home.html"> <BUTTON type="button" value="LOGIN" class="b"> </a>
-		<a href = "home.html"> <BUTTON type="button" value="LOGIN" class="b"> </a>
-		<a href = "home.html"> <BUTTON type="button" value="ABOUT US" class="b"> ABOUT US </a> -->
 		<a href = "home.html" class="b"> HOME </a>
 		<a href = "gallery.html" class="b"> GALLERY </a>
 		<a href = "home.html" class="b"> LOGIN </a>
 		<a href = "home.html" class="b"> LOGIN</a>
 		<a href = "about.html" class="b"> ABOUT US </a>
 	</div>
-	<DIV CLASS="T2">
-		<!-- <a href = "home.html"> <input type="button" value="HOME" id="b1"> </a>
-		<a href = "home.html"> <INPUT type="button" value="LOGIN" id="b2"> </a>
-		<a href = "home.html"> <input type="button" value="LOGIN" id="b3"> </a>
-		<a href = "home.html"> <input type="button" value="LOGIN" id="b4"> </a>
-		<a href = "home.html"> <input type="button" value="LOGIN" id="b5"> </a> -->
-	</DIV>
+		
+		  <!-- <img class="mySlides" src="pic1.jpg" width="750px" height="350px">
+		  <img class="mySlides" src="pic2.jpg" width="750px" height="350px">
+		  <img class="mySlides" src="pic3.jpg" width="750px" height="350px">
+		  <img class="mySlides" src="pic4.jpg" width="750px" height="350px">
+		  <img class="mySlides" src="pic5.jpg" width="750px" height="350px"> -->
+	</div>
+	<div class="t3" align="center">		
+		  <img class="mySlides" src="pic1.jpg" width="750px" height="400px" >
+		  <img class="mySlides" src="pic2.jpg" width="750px" height="400px">
+		  <img class="mySlides" src="pic3.jpg" width="750px" height="400px">
+		  <img class="mySlides" src="pic4.jpg" width="750px" height="400px">
+		  <img class="mySlides" src="pic5.jpg" width="750px" height="400px">
+	</div>
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		    var i;
+		    var x = document.getElementsByClassName("mySlides");
+		    for (i = 0; i < x.length; i++) {
+		       x[i].style.display = "none";  
+		    }
+		    myIndex++;
+		    if (myIndex > x.length) {myIndex = 1}    
+		    x[myIndex-1].style.display = "block";  
+		    setTimeout(carousel, 5000); // Change image every 5 seconds
+		}
+
+		</script>
 	<div class="t1">
 			<!-- <form class="f1" action="action_page.php">
 				First name:<br>
