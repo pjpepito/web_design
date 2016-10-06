@@ -1,0 +1,19 @@
+
+.h1{
+
+	background-color: #3079ab;
+		height:130px;
+		width: 1335px;
+}
+.t1 	{
+
+		background-color: #3079ab;
+		height:700px;
+		width: 200px;
+		border:2px;
+		text-align: center;
+		position:relative;
+		left:1135px;
+		/*/top:10px;
+
+		}

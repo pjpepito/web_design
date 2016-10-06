@@ -1,6 +1,6 @@
 .header {
 		background-color:#3079ab;
-		height:170px;
+		height:130px;
 	   }
 
 .head {
@@ -8,50 +8,28 @@
 		font-family: Arial, Helvetica, sans-serif;
 		float:left;
 		position:relative;
-		left:178px;
-		top:50px;
-		font-size:50px;
+		left:120px;
+		top:40px;
+		font-size:40px;
 	  }
 
 #logo {
-		height:110px;
-		width:110px;
-		top:30px;
+		height:90px;
+		width:90px;
+		top:20px;
 		position:relative;
 		left:-120px;
 	 	}
-
-....t1{
-		background-color:#3079ab;
-		height:550px;
-		width:250px;
-		position:relative;
-		left:1083px;
-		}
-
-.T2 {
+.T2    {
 		background-color:#3079ab;
 		height:50px;
 		border:2px;
 	   }
 
-a{
+a      {
 		text-decoration:none; 
 
 		}
-
-....f1 {
-		position:relative;
-		left:50px;
-
-		}
-....#fb {
-		height:50px;
-		width:75px;
-		position:relative;
-		left:40px;
-	 	}
-
 .b {
 	background-color: #4CAF50; /* Green */
     border: none;
@@ -69,7 +47,7 @@ a{
 	top:-20px;
 	 }
 a:hover {
-    	background-color:#3079ab;
+		background-color:#3079ab;
     	text-decoration: underline;
     	color: black;
     	}
